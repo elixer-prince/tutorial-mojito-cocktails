@@ -1,5 +1,6 @@
 import gsap from "gsap";
 import { ScrollTrigger, SplitText } from "gsap/all";
+import Cocktails from "./components/Cocktails.jsx";
 import Hero from "./components/Hero.jsx";
 import Navbar from "./components/Navbar.jsx";
 
@@ -10,7 +11,7 @@ const App = () => {
         <main>
             <Navbar />
             <Hero />
-            <div className="h-dvh bg-black"></div>
+            <Cocktails />
         </main>
     );
 };
